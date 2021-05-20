@@ -6,6 +6,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://repo1.maven.org/maven2/' }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.2.0"
@@ -20,6 +21,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://repo1.maven.org/maven2/' }
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
