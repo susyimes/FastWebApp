@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 整体的背景颜色 -->
+
+    <item>
+        <color android:color="@color/white" />
+    </item>
+    <!-- 顶部 -->
+    <item android:gravity="center">
+        <bitmap android:src="@drawable/ic_launcher_round" />
+    </item>
+
+</layer-list>
